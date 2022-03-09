@@ -1,4 +1,4 @@
-// import '../_mockLocation';   // this runs only once and set our location as we set on this file(must check/see)
+import '../_mockLocation';   // this runs only once and set our location as we set on this file(must check/see)
 import React, { useContext, useCallback } from "react";
 import { StyleSheet, ScrollView } from 'react-native';
 import { Text } from 'react-native-elements';

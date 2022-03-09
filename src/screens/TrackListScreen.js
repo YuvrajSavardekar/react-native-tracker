@@ -16,7 +16,7 @@ const TrackListScreen = ({ navigation }) => {
 
             <FlatList
              data={state}
-             keyExtractor={(item) => item._id}
+             keyExtractor={item => item._id}
              renderItem={ ({item}) => {
                  return (
                     <TouchableOpacity

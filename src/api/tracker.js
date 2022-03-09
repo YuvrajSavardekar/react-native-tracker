@@ -2,7 +2,7 @@ import axios from "axios";
 import { AsyncStorage } from "react-native";
 
 const instance = axios.create({
-    baseURL: 'http://ef37-103-173-50-72.ngrok.io'
+    baseURL: 'http://aa7e-103-173-50-218.ngrok.io'
     // ngrok creates a tunnel which provides public url to access page
     // it valid only for 2 hours so change it whenver you run
 });
